@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# ArcGIS / model artifacts
+*.dlpk
+*.pth
+*.pt
+*.onnx
+*.emd
+*.crf
+*.tif
+*.tiff
+*.img
+*.sid
+*.jp2
+*.ntf
+*.gdb/
+*.sde
+*.lock
+*.lpkx
+*.aprx
+
+# training outputs
+*_training_logs/
+*_deployment/
+runs/
+outputs/
+checkpoints/
+models/
+weights/
+training_data/
+
+# Windows / editors
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

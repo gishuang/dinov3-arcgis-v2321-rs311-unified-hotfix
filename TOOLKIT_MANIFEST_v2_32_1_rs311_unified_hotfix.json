@@ -1,0 +1,20 @@
+{
+  "toolkit": "DINOv3 ArcGIS Pro Segmentation Toolkit",
+  "toolkit_version": "v2.32.1-rs311-unified-hotfix",
+  "date": "2026-05-11",
+  "main_files": [
+    "DINOv3_ArcGIS_Trainer_v2.pyt",
+    "dinov3_arcgis_v2.py",
+    "dinov3_inference_v2.py",
+    "train_dinov3_model_v2.py",
+    "verify_dinov3_arcgis_env_v2.py",
+    "repair_existing_dlpk_v2_32_1.py"
+  ],
+  "highlights": [
+    "Unified version labels across training core, PRF, EMD and manifest",
+    "ArcGIS Pro parameter description/help text for every tool parameter",
+    "Safe external subprocess training and safe exit",
+    "Inference backbone channel probe, bundled repo snapshot, dtype-safe output, class-value mapping and diagnostic inference modes",
+    "Max-value radiometry override for 16-bit imagery"
+  ]
+}

@@ -1,0 +1,16 @@
+# External Miniconda validation environment for DINOv3 ArcGIS Toolkit v2.15-rs311
+# Install PyTorch separately first, because CUDA wheels use a dedicated index URL.
+# Example:
+#   python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+transformers==4.56.2
+huggingface_hub>=0.34,<1.0
+pillow
+numpy
+opencv-python
+tqdm
+matplotlib
+timm
+safetensors
+scikit-image
+scikit-learn
+rasterio
